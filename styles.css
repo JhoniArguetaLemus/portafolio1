@@ -1,0 +1,57 @@
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+li>a:hover{
+    background: linear-gradient(to left, #e7eaf6, #5585b5, #113f67);
+  
+    border-radius: 10px;
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media  screen and (max-width: 767px) {
+    .title{
+        display: none;
+    }
+
+ 
+    
+}
+
+
+
+.card{
+
+    margin: 20px;
+
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.card:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(255, 255, 255, 0.5);
+
+    transform:  scale(1.04);
+}
+.proyectos{
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+h3{
+    text-align: center;
+    padding: 10px;
+}
